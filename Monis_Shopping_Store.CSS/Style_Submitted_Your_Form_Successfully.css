@@ -1,0 +1,82 @@
+body {
+    background: url(https://media.istockphoto.com/photos/fluffy-clouds-with-vibrant-turquoise-sky-background-picture-id1282176977?b=1&k=20&m=1282176977&s=170667a&w=0&h=e-yYplaUmT7goCWTjd03rmWFlBsr3DZczEu_y55xXOw=);
+background-repeat: no-repeat;
+background-size: 1400px;
+margin: 0px;
+font-style: italic;
+}
+
+.A2 {
+    color: rgb(252, 252, 252);
+    background-color: rgb(57, 164, 187);
+    margin: 0px;
+}
+img{
+    margin-left: 330px;
+}
+ 
+.A3 {
+    text-decoration: underline;
+    margin-top: -40px;
+    text-align: center;
+}
+.A4{
+    border:6px solid black;
+    margin:200px;
+    color: white;
+    text-align: center;
+    background-color: skyblue;
+}
+.footer {
+    clear: both;
+    background-color:  rgb(57, 164, 187);
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+
+.footer p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.footer a {
+    color: white;
+    font-weight: bold;
+}
+
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    font-weight: bold;
+
+}
+a:hover {
+    color: black;
+    font-weight: bold;
+
+}
+ 
+ p {
+     text-align: center;
+ }
+ .D8 {
+    text-align: left;
+}
+
+ 
+
+.D10 {
+    background: silver;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.D10:hover {
+    background: gray;
+    text-decoration: none;
+}
