@@ -1,80 +1,137 @@
- body {
-     color: #665544;
-     background-color: #d4d0c6;
-     background-image: url(../assets_2/backdrop.gif);
-     font-family: Georgia, "Times New Roman", Times, serif;
-     font-size: 90%;
-     margin: 0px;
-     text-align: center;
-     font-style: italic;
- }
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@1,100;1,300;1,500&family=Pacifico&family=Sacramento&family=Trispace:wght@800&display=swap');
+
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: rgb(47, 49, 55);
+}
 
  .wrapper {
-     width: 1100px;
-     margin: 20px auto 20px auto;
-     border: 3px solid;
- }
-
+      width: 1100px;
+      margin: 20px auto 20px auto;
+      background-color: rgb(16, 16, 16);
+      border-radius:20px ;
+      -webkit-border-radius:20px ;
+      -moz-border-radius:20px ;
+      -ms-border-radius:20px ;
+      -o-border-radius:20px ;
+}
+p{
+    text-align: center;
+}
  h2 {
     margin-top: 20px;
-     border: 5px solid #665544;
+     border: 5px solid  #AFAFAF;
      color: white;
-     background-color: #665544;
+     background-color: rgb(16, 16, 16);
  }
 
  .header {
-     text-decoration: underline;
+     background-color:  rgba(48,48,55,0.5);
+     text-align: center;
+    
  }
  .footer {
     clear: both;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 5px 10px;
-    font-weight: bold;
-
+    background-color: rgba(48,48,55,0.5);
+    padding: 20px 20px;
 }
 
-.footer p {
+.footer  {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 75%;
     text-align: left;
-    font-weight: bold;
-
 }
-
 .footer a {
-    color: #807c72;
-    font-weight: bold;
+    color: black;
 }
-
 .container_12 {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    font-weight: bold;
-
 }
-a:hover {
+ 
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:blue;
+}
+a:hover{
     color: white;
-    font-weight: bold;
-
-}
- 
- p {
-     text-align: center;
- }
- .D8 {
-    text-align: left;
 }
 
  
+
+.D9 {
+    background: #CF25B1;
+    background-image: -webkit-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -moz-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -ms-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -o-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: linear-gradient(to bottom, #CF25B1, #D327A9);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 160px 20px 150px;
+    text-decoration: none;
+    margin-top: 30px;
+    border: none;
+    margin-left: 350px;
+}
+
+.D9:hover {
+    background: #B816DA;
+    background-image: -webkit-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -moz-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -ms-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -o-linear-gradient(top, #B816DA, #D227AA);
+    background-image: linear-gradient(to bottom, #B816DA, #D227AA);
+    text-decoration: none;
+
+}
 
 .D10 {
-    background: silver;
-    font-weight: bold;
-    font-size: 15px;
+    background: #CF25B1;
+    background-image: -webkit-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -moz-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -ms-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -o-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: linear-gradient(to bottom, #CF25B1, #D327A9);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 100px 20px 100px;
+    text-decoration: none;
+  border: none;
+  margin-top: 30px;
+    margin-left: 410px;
+    margin-bottom: 20px;
 }
 
 .D10:hover {
-    background: gray;
+    background: #B816DA;
+    background-image: -webkit-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -moz-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -ms-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -o-linear-gradient(top, #B816DA, #D227AA);
+    background-image: linear-gradient(to bottom, #B816DA, #D227AA);
     text-decoration: none;
 }

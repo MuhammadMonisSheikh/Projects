@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@1,100;1,300;1,500&family=Pacifico&family=Sacramento&family=Trispace:wght@800&display=swap');
+
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
 body {
-    background: url(https://media.istockphoto.com/photos/fluffy-clouds-with-vibrant-turquoise-sky-background-picture-id1282176977?b=1&k=20&m=1282176977&s=170667a&w=0&h=e-yYplaUmT7goCWTjd03rmWFlBsr3DZczEu_y55xXOw=);
-background-repeat: no-repeat;
-background-size: 1400px;
-margin: 0px;
-font-style: italic;
+    color: #FFFFFF;
+    background-color: rgb(47, 49, 55);
 }
 
 .A2 {
     color: rgb(252, 252, 252);
-    background-color: rgb(57, 164, 187);
+    background-color: rgb(16,16,16);
     margin: 0px;
 }
 img{
@@ -21,23 +29,24 @@ img{
     text-align: center;
 }
 .A4{
-    border:6px solid black;
+    border:6px solid  #9597a6;
     margin:200px;
     color: white;
     text-align: center;
-    background-color: skyblue;
+    background-color: rgb(16,16,16);
 }
 .footer {
     clear: both;
-    background-color:  rgb(57, 164, 187);
-    padding: 5px 10px;
+    background-color:  rgb(16,16,16);
+    padding: 10px 20px;
     font-weight: bold;
-
+    margin-top: 250px;
 }
 
 .footer p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 75%;
+    margin-left: -200px;
     text-align: left;
     font-weight: bold;
 
@@ -56,27 +65,43 @@ img{
 
 }
 a:hover {
-    color: black;
+    color: #9597a6;
     font-weight: bold;
 
 }
  
- p {
-     text-align: center;
- }
+  
  .D8 {
     text-align: left;
 }
 
- 
-
 .D10 {
-    background: silver;
-    font-weight: bold;
-    font-size: 15px;
+    background: #CF25B1;
+    background-image: -webkit-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -moz-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -ms-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: -o-linear-gradient(top, #CF25B1, #D327A9);
+    background-image: linear-gradient(to bottom, #CF25B1, #D327A9);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 13px 80px 13px 80px;
+    text-decoration: none;
+    border: none;
+   margin-left: 930px;
 }
 
 .D10:hover {
-    background: gray;
+    background: #B816DA;
+    background-image: -webkit-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -moz-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -ms-linear-gradient(top, #B816DA, #D227AA);
+    background-image: -o-linear-gradient(top, #B816DA, #D227AA);
+    background-image: linear-gradient(to bottom, #B816DA, #D227AA);
     text-decoration: none;
 }
