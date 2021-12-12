@@ -114,6 +114,9 @@ input {
 .form_wrap input[type="password"]:focus {
     border: #CF25B1 solid;
     }
+.A1{
+    margin-left: 20px;
+}
 button{
     background: rgb(23,23,23);
     background-image: -webkit-linear-gradient(top, rgb(23,23,23), rgb(23,23,23));
