@@ -14,52 +14,76 @@
     <div class="wrapper">
         <div class="registration_form">
             <div class="title">
-                <img width="100px" src="../assets_2/MONIS.png" alt="">
+                <img width="200px" src="../assets_2/MONIS.png" alt="">
                 <h1>Registration</h1>
             </div>
             <form action="Submitted_Your_Form_Successfully.html">
                 <div class="form_wrap">
                     <div class="input_grp">
                         <div class="input_wrap">
-                            <label for="fname">First Name</label>
-                            <input type="fname" id="fname">
+                            <label for="fname">Username</label>
+                            <input type="fname"placeholder="Username"required=""  id="fname">
                         </div>
-                        
+
                         <div class="input_wrap">
-                            <label for="lname">Last Name</label>
-                            <input type="lname" id="lname">
+                            <label for="lname">Name</label>
+                            <input placeholder="Name"type="lname"required=""  id="lname">
                         </div>
-                    
-                    <div class="input_wrap">
-                        <label for="Email">Email Address</label>
-                        <input type="email" id="Email">
+                        <div class="input_wrap">
+                            <label for="Email">Email Address</label>
+                            <input placeholder="Email Address"type="email"required=""  id="Email">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="Password">Password</label>
+                            <input placeholder="Password"type="Password"required=""  id="Email">
+                        </div>
+                        <div class="input_wrap">
+                            <label>Postal code</label>
+                            <input placeholder="Postal code" required="" type="number" id="postalcode">
+                        </div>
+                        <div class="input_wrap">
+                            <label>Gender</label>
+                            <ul>
+                                <li>
+                                    <label class="radio_wrap">
+                                        <input type="radio" name="gender" required="" value="male" class="input_radio" checked>
+                                        <span>Male</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio_wrap">
+                                        <input type="radio" name="gender" value="female" class="input_radio">
+                                        <span>Female</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="input_wrap">
+                            <h2>Hobbies</h2>
+                            <label for="tiktok">Tiktok</label>
+                            <input type="checkbox" required="" id="tiktok">
+                            <label for="games">Games</label>
+                            <input type="checkbox" required="" required="" id="games">
+                            <label for="films">Films</label>
+                            <input type="checkbox" required="" id="films">
+                            <label for="dramas">Dramas</label>
+                            <input type="checkbox" required="" id="dramas">
+                        </div>
+                        <div class="input_wrap">
+                            <form>
+                                <select required=""  name="device">
+                                    <option value="city" selected="selected">city</option>
+                                    <option value="Faisalabad">Faisalabad</option>
+                                    <option value="Lahore">Lahore</option>
+                                    <option value="Islamabad">Islamabad</option>
+                                    <option value="Karachi">Karachi</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="input_wrap">
+                            <input type="submit" value="Register Now" class="D9">
+                        </div>
                     </div>
-                    <div class="input_wrap">
-                        <label>Gender</label>
-                        <ul>
-                            <li>
-                                <label class="radio_wrap">
-                                    <input type="radio" name="gender" value="male" class="input_radio" checked>
-                                    <span>Male</span>
-                                </label>
-                            </li>
-                            <li>
-                                <label class="radio_wrap">
-                                    <input type="radio" name="gender" value="female" class="input_radio">
-                                    <span>Female</span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="input_wrap">
-                        <label for="city">City</label>
-                        <input type="city" id="city">
-                    </div>
-                      
-                    <div class="input_wrap">
-                        <input type="submit" value="Register Now" class="D9">
-                    </div>
-                </div>
             </form>
             <form action="Monis_Online_Shopping_Store.html">
                 <div class="form_wrap">
