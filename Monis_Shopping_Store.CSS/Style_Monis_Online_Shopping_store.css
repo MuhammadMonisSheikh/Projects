@@ -9,9 +9,14 @@ body {
 }
 
 .A1 {
-    width: 940px;
-    margin: 20px auto 20px auto;
+     width: 940px;
+     margin: 20px auto 20px auto;
      background-color: rgb(16,16,16);
+     border-radius:30px ;
+     -webkit-border-radius:30px ;
+     -moz-border-radius:30px ;
+     -ms-border-radius:30px ;
+     -o-border-radius:30px ;
 }
 
 .A2 {

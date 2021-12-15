@@ -25,8 +25,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     background: rgb(16, 16, 16);
-    width: 400px;
-    padding: 25px;
+     width: 1200px; 
+    padding: 200px; 
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -35,7 +35,7 @@ body {
 }
 
 .title{
-    margin-top: -10px;
+    margin-top: -100px;
     text-align: center;
 } 
 p {
@@ -172,7 +172,7 @@ button:hover{
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 120px 20px 130px;
+    padding: 20px 90px 20px 80px;
     text-decoration: none;
     margin-top: 30px;
     border: none;
@@ -207,7 +207,7 @@ button:hover{
     padding: 20px 100px 20px 100px;
     text-decoration: none;
   border: none;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .D10:hover {
