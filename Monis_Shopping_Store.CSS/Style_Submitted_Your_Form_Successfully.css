@@ -11,12 +11,12 @@
 
 body {
     color: #FFFFFF;
-    background-color: rgb(47, 49, 55);
+    background-color: rgb(16,16,16);  
 }
 
 .A2 {
     color: rgb(252, 252, 252);
-    background-color: rgb(16,16,16);
+    background-color: rgb(47, 49, 55);
     margin: 0px;
 }
 img{
@@ -28,25 +28,27 @@ img{
     margin-top: -40px;
     text-align: center;
 }
-.A4{
-    border:6px solid  #9597a6;
+.A4{ 
     margin:200px;
     color: white;
     text-align: center;
     background-color: rgb(16,16,16);
 }
+.D8{
+ margin-left: -300px;
+}
 .footer {
     clear: both;
-    background-color:  rgb(16,16,16);
+    background-color: rgb(47, 49, 55);
     padding: 10px 20px;
     font-weight: bold;
-    margin-top: 250px;
+margin-top: 62px;    
 }
 
 .footer p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 75%;
-    margin-left: -200px;
+    margin-left: -10px;
     text-align: left;
     font-weight: bold;
 
@@ -58,22 +60,18 @@ img{
 }
 
 .container_12 {
-    margin-left: auto;
-    margin-right: auto;
+    
     width: 960px;
     font-weight: bold;
 
 }
 a:hover {
-    color: #9597a6;
+    color: black;
     font-weight: bold;
-
 }
  
   
- .D8 {
-    text-align: left;
-}
+  
 
 .D10 {
     background: #CF25B1;
@@ -93,7 +91,7 @@ a:hover {
     padding: 13px 80px 13px 80px;
     text-decoration: none;
     border: none;
-   margin-left: 930px;
+   margin-left: 850px;
 }
 
 .D10:hover {

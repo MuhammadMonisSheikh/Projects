@@ -3,16 +3,18 @@
 
 body {
     color: #ffffff;
-    background-color: rgb(47, 49, 55);
+    background-color: rgb(16, 16, 16);
     background-position: center;
     font-family: Georgia, 'Times New Roman', serif;
     text-align: center;
     line-height: 1.4em;
     margin: 0px;
 }
-
+h1{
+    margin-top: 10px;
+    text-decoration: underline;
+}
 .wrapper {
-    background-color: rgb(16, 16, 16);
     width: 940px;
      margin: 20px auto 20px auto;
        border-radius: 30px;
@@ -25,6 +27,7 @@ body {
 .header {
     background-color: rgba(48, 48, 55, 0.5);
     margin-top: -10px;
+    height: 100px;
 }
 
 .entry {
@@ -32,7 +35,9 @@ body {
     float: left;
     height: 260px;
 }
-
+.B1{
+    border:1px solid;
+}
 figure {
     display: block;
     width: 202px;
@@ -67,12 +72,11 @@ figcaption {
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 105px 20px 110px;
+    padding: 13px 30px 13px 30px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: -10px;
     border: none;
-    margin-top: 80px;
-    margin-left: 20px;
+margin-left: -15px;
 }
 .A2:hover{
     background: #B816DA;
@@ -97,9 +101,10 @@ figcaption {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 75%;
     text-align: left;
+    margin-left: -180px;
 }
 .footer a {
-    color: black;
+    color: white;
 }
 .container_12 {
     margin-left: auto;
@@ -114,7 +119,7 @@ a{
     color:blue;
 }
 a:hover{
-    color: white;
+    color: black;
 }
 .D9 {
     background: #CF25B1;
@@ -131,12 +136,12 @@ a:hover{
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 60px 20px 60px;
+    padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-top: 30px;
     border: none;
     margin-top: 10px;
-    margin-left: 20px;
+float: left; 
+margin-left: 210px;
 }
 
 .D9:hover {
@@ -165,12 +170,11 @@ a:hover{
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 90px 20px 90px;
+    padding: 10px 50px 10px 50px;
     text-decoration: none;
-    border: none;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    border: none; 
+    margin-left: -50px;
+    margin-top: -5px;
 }
 
 .D10:hover {

@@ -1,38 +1,40 @@
 body {
     color: #FFFFFF;
-    background-color: rgb(48,48,55);
+    background-color: rgb(16,16,16);
     background-position: center;
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 0px;
     font-style: italic;
+    background-blend-mode: color;
+    background-attachment: fixed;
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
 }
 
-.A1 {
-     width: 940px;
-     margin: 20px auto 20px auto;
-     background-color: rgb(16,16,16);
-     border-radius:30px ;
-     -webkit-border-radius:30px ;
-     -moz-border-radius:30px ;
-     -ms-border-radius:30px ;
-     -o-border-radius:30px ;
-}
+li{
+    margin-top: -1.5px;
+} 
+.A5{
+    margin-top: -40px;
+     text-align: center;
+ }
 
-.A2 {
+.A3 {
     text-decoration: underline;
     clear: both;
     border: solid rgba(48,48,55,0.5);
     background-color: rgba(48,48,55,0.5);
-    padding: 5px 10px;
+     padding: 5px 10px;
+     height: 50px; 
 }
-.A3{
-    margin-left: 120px;
-}
-.A4{
-    margin-top: -57px;
-     text-align: center;
-}
+ img{
+     margin-top: -7px;
+     margin-left: 270px;
+ }
 h2{
     margin-left: 5px;
 }
@@ -43,7 +45,8 @@ h2{
 .footer {
     clear: both;
     background-color: rgba(48,48,55,0.5);
-    padding: 5px 10px;
+    padding: 2px 10px;
+    margin-top: -20px;
 }
 
 .footer p {
@@ -52,19 +55,22 @@ h2{
     text-align: left;
 }
 .footer a {
-    color: black;
+    color: white;
 }
 .container_12 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
+  width: 960px;
 }
- 
+ .B5{
+     color: blue;
+ }
+ .B5:hover{
+     color: white;
+ }
 a{
     text-decoration: none;
     font-weight: bolder;
-    color:blue;
+     
 }
 a:hover{
-    color: white;
+    color: black;
 }

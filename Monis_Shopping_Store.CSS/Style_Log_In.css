@@ -11,7 +11,50 @@
 
 body {
     color: #FFFFFF;
-    background-color: rgb(47, 49, 55);
+    background-color: rgb(16, 16, 16);
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    font-style: italic;
+    background-blend-mode: color;
+    background-attachment: fixed;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+h1 {
+    margin-top: -30px;
+    text-align: center;
+}
+
+img {
+    margin-left: 450px;
+    margin-top: -10px;
+}
+#Username {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/3861/3861172.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 15rem;
+    background-position-y: 0.3rem;
+}
+#email {
+    background-image: url(https://cdn-icons.flaticon.com/png/512/2374/premium/2374449.png?token=exp=1639854757~hmac=15cefcfa919855a881840ed39e27b3d2);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 15rem;
+    background-position-y: 0.3rem;
+}
+#Password{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3427/3427189.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 15rem;
+    background-position-y: 0.3rem;
 }
 
 .wrapper {
@@ -22,11 +65,7 @@ body {
 }
 
 .Log_In {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: rgb(16, 16, 16);
-    width: 1200px;
-    padding: 200px;
+    margin-top: -130px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -34,26 +73,17 @@ body {
     -o-border-radius: 20px;
 }
 
-.title{
-    margin-top: -100px;
-    text-align: center;
-} 
-p {
-    margin-top: 10px;
-    text-align: center;
-    color: #AFAFAF;
+.title {
+    text-decoration: underline;
+    clear: both;
+    border: solid rgba(48, 48, 55, 0.5);
+    background-color: rgba(48, 48, 55, 0.5);
+    padding: 5px 10px;
+    height: 50px;
 }
 
-a {
-    color: white;
-    text-decoration:none;
-}
-
-a:hover {
-    color: #AFAFAF;
-}
 .form_wrap input[type="text"] {
-    width: 90%;
+    width: 70%;
     border-radius: 5px;
     border: 1px solid #9597a6;
     -webkit-border-radius: 5px;
@@ -62,9 +92,10 @@ a:hover {
     -o-border-radius: 5px;
     padding: 15px;
     outline: none;
-    }
+}
+
 .form_wrap input[type="email"] {
-    width: 90%;
+    width: 70%;
     border-radius: 5px;
     border: 1px solid #9597a6;
     -webkit-border-radius: 5px;
@@ -73,18 +104,19 @@ a:hover {
     -o-border-radius: 5px;
     padding: 15px;
     outline: none;
-    }
-    .form_wrap input[type="password"] {
-        width: 90%;
-        border-radius: 5px;
-        border: 1px solid #9597a6;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        padding: 15px;
-        outline: none;
-        }
+}
+
+.form_wrap input[type="password"] {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #9597a6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 15px;
+    outline: none;
+}
 
 .form_wrap {
     margin-top: 35px;
@@ -106,9 +138,11 @@ a:hover {
 
 .form_wrap .input_wrap label {
     display: block;
-    font-size: 15px;
-    margin-bottom: 3px;
+    font-size: 20px;
+    margin-bottom: 20px;
     color: #A5A5A5;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .form_wrap input[type="email"]:focus {
@@ -118,45 +152,33 @@ a:hover {
 input {
     background-color: rgb(23, 23, 23);
     color: white;
-    font-size:  20px; 
+    font-size: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
+
 .form_wrap input[type="text"]:focus {
     border: #CF25B1 solid;
-    }
+}
+
 .form_wrap input[type="password"]:focus {
     border: #CF25B1 solid;
-    }
-.A1{
+}
+
+.A1 {
     margin-left: 20px;
 }
-button{
-    background: rgb(23,23,23);
-    background-image: -webkit-linear-gradient(top, rgb(23,23,23), rgb(23,23,23));
-    background-image: -moz-linear-gradient(top, rgb(23,23,23), rgb(23,23,23));
-    background-image: -ms-linear-gradient(top, rgb(23,23,23), rgb(23,23,23));
-    background-image: -o-linear-gradient(top, rgb(23,23,23), rgb(23,23,23));
-    background-image: linear-gradient(to bottom, rgb(23,23,23), rgb(23,23,23));
-    -webkit-border-radius: 22;
-    -moz-border-radius: 22;
-    border-radius: 22px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 40px;
-    padding: 11px 60px 11px 60px;
-    text-decoration: none;
-  
-    border: solid #AFAFAF;
- }
-button:hover{
-    background: rgba(23,23,23,0.3);
-  background-image: -webkit-linear-gradient(top, rgba(23,23,23,0.5), rgb(23,23,23,0.5));
-  background-image: -moz-linear-gradient(top, rgba(23,23,23,0.5), rgb(23,23,23,0.5));
-  background-image: -ms-linear-gradient(top, rgba(23,23,23,0.5), rgb(23,23,23,0.5));
-  background-image: -o-linear-gradient(top, rgba(23,23,23,0.5), rgb(23,23,23,0.5));
-  background-image: linear-gradient(to bottom, rgba(23,23,23,0.5), rgb(23,23,23,0.5));
-  text-decoration: none;
+h5{
+    font-size: 20px;
+color:  #A5A5A5;     
 }
- 
+a{
+    color:#FFFFFF;
+     text-decoration: none;
+}
+a:hover{
+    color:#A5A5A5;
+}
 .D9 {
     background: #CF25B1;
     background-image: -webkit-linear-gradient(top, #CF25B1, #D327A9);
@@ -172,10 +194,12 @@ button:hover{
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 100px 20px 100px;
+    padding: 15px 35px 15px 35px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 10px;
     border: none;
+    float: left;
+    margin-left: 80px;
 }
 
 .D9:hover {
@@ -204,10 +228,11 @@ button:hover{
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
-    padding: 20px 100px 20px 100px;
+    padding: 15px 40px 15px 40px;
     text-decoration: none;
-  border: none;
-    margin-left: 4px;
+    border: none;
+    margin-left: 210px;
+    margin-top: -68px;
 }
 
 .D10:hover {
